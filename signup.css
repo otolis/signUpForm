@@ -1,0 +1,134 @@
+/* General Page Styling */
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Left Section (Image) */
+  .leftSection {
+    width: 40%;
+    background: url('hq720.jpg') center center / cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .leftSection .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftSection .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .leftSection .photoCredit {
+    font-size: 12px;
+    color: white;
+    margin: 20px;
+  }
+  
+  /* Right Section (Form) */
+  .rightSection {
+    width: 60%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .rightSection h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .rightSection p {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  /* Form Container */
+  form {
+    background-color: white;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  form .formGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  form .formGroup label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  form .formGroup input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  form .formGroup input:focus {
+    border-color: #6a994e;
+    outline: none;
+  }
+  
+  form .errorMessage {
+    color: red;
+    font-size: 12px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a994e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #538d4e;
+  }
+  
+  form a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6a994e;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+  }
+  
